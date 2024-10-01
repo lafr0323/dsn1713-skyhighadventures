@@ -15,11 +15,6 @@ outline: none;
     color: #AB3535;
 }
 
-.varela-round-regular {
-    font-family: "Varela Round", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
 
 .btn-booknow {
     color: white;
@@ -27,7 +22,6 @@ outline: none;
     border: none;
     border-radius: 10px;
     outline: none;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 10px;
 }
   

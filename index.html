@@ -9,16 +9,28 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<header>
+<header class="d-flex justify-content-between align-items-center align-items-center">
+
+    <div>
+      <img class="logo" src="images/Logo.svg" alt="two stars sky high">
+    </div>
+
+    <div>
+      <button type="button" class="btn-booknow d-block d-lg-none justify-content-center">Book Now</button>
+    </div>
+    
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <img class="logo" src="images/Logo.svg" alt="two stars sky high">
-          <button class="navbar-toggler" src="images/HamburgerMenu.svg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <img class="hamburgermenu" src="images/HamburgerMenu.svg" alt="#">
-          </button>
+        <div class="ms-auto">
+
+          <div>
+            <button class="navbar-toggler" src="images/HamburgerMenu.svg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <img class="hamburgermenu" src="images/HamburgerMenu.svg" alt="#">
+            </button>
+          </div>
+
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <button type="button" class="btn-booknow">Book Now</button>
+            <ul class="navbar-nav display-flex">
               <li class="nav-item">
                 <a class="nav-link" href="#">Home</a>
               </li>
@@ -37,11 +49,15 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
               </li>
-              </li>
             </ul>
           </div>
         </div>
       </nav>
+
+      <div>
+        <button type="button" class="btn-booknow d-none d-md-block ms-auto">Book Now</button>
+      </div>
+
 </header>
 
 <body>
