@@ -3,12 +3,14 @@
 .navbar-toggler {
 border: none;
 outline: none;
+
 }
 
 .nav-link {
     color: #E99548;
     padding: 10px;
     margin-right: 10px;
+    text-align: right;
 }
 
 .nav-link:hover {
@@ -24,4 +26,28 @@ outline: none;
     outline: none;
     padding: 10px 20px;
 }
-  
+
+.btn-adventures {
+    color: white;
+    background-color: #AB3535;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.support {
+    color: #E99548;
+}
+
+.warning {
+    background-color: #ffdec082;
+}
+
+h1 {
+    color: #AB3535;
+}
+
+h4 {
+    color: #E99548;
+}
