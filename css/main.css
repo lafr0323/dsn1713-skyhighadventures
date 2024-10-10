@@ -1,4 +1,6 @@
-
+:root {
+ --primary:#AB3535
+}
 
 .navbar-toggler {
 border: none;
@@ -13,13 +15,12 @@ outline: none;
 }
 
 .nav-link:hover {
-    color: #AB3535;
+    color: var(--primary);
 }
-
 
 .btn-booknow {
     color: white;
-    background-color: #AB3535;
+    background-color: var(--primary);
     border: none;
     border-radius: 10px;
     outline: none;
@@ -28,7 +29,7 @@ outline: none;
 
 .btn-adventures {
     color: white;
-    background-color: #AB3535;
+    background-color: var(--primary);
     border: none;
     border-radius: 10px;
     outline: none;
@@ -40,13 +41,17 @@ outline: none;
 }
 
 .warning {
-    background-color: #ffdec082;
+    background-color: #ffe9d482;
 }
 
-h1 {
-    color: #AB3535;
+.h1 {
+    color: var(--primary);
 }
 
 h4 {
     color: #E99548;
+}
+
+.hero-section {
+    background-color: #fff4f4;
 }
