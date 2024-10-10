@@ -29,7 +29,7 @@ outline: none;
 
 .btn-adventures {
     color: white;
-    background-color: var(--primary);
+    background-color: #E99548;
     border: none;
     border-radius: 10px;
     outline: none;
@@ -45,13 +45,40 @@ outline: none;
 }
 
 .h1 {
-    color: var(--primary);
+    color: #ffffff;
 }
 
 h4 {
-    color: #E99548;
+    color: #ffffff;
 }
 
 .hero-section {
     background-color: #fff4f4;
+    background-image: url(../images/skydiving-in-the-great-smoky-mountains-pigeon-forge.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-section::before {
+    background-color: var(--primary);
+    content: "";
+    height: 100%;
+    opacity: 85%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.btn-booknow2 {
+    color: white;
+    background-color: #E99548;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px 20px;
 }
